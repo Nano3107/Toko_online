@@ -63,7 +63,7 @@
     </tbody>
 </table>
 </div>
-<div style="background-image: url(assets/film-near-photo-video-cameras.jpg);">
+<div style="background-image: url(;">
 <?php 
     include "footer.php";
 ?>

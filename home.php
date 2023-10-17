@@ -29,10 +29,11 @@ h1 {
     <center>
       <h1 style="font-family: selidon; color:black;"  class="h1">Selamat datang <?= $_SESSION['level'] ?> <?= $_SESSION['nama_user'] ?> di website NKY Shop  :D</h1>
 </center>
+
 <section id="carousel" style="display: flex; align-items: center">
       <div class="wrapper" style="position: relative; top: -100px; left: 0">
         <div class="carousel d-flex owl-carousel" style="max-width: 1520px">
-          <div class="main" style="width: 320px; height: 182px; background-image: url(); background-size: 320px 182px; margin-left: -100px"></div>
+          <div class="main" style="width: 320px; height: 182px; background-image: url(assets/Background_produk.jpeg); background-size: 320px 182px; margin-left: -100px" href ="produk.php" ></div>
           <div class="main" style="width: 320px; height: 182px; background-image: url(); background-size: 320px 182px; margin-left: -100px"></div>
           <div class="main" style="width: 320px; height: 182px; background-image: url(); background-size: 320px 182px; margin-left: -100px"></div>
           <div class="main" style="width: 320px; height: 182px; background-image: url(); background-size: 320px 182px; margin-left: -100px"></div>
