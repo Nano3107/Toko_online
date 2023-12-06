@@ -1,9 +1,10 @@
-<div  style="background-image: url(assets/Bacground_produk.jpeg);" class="bgProduk">
+<div  style="background-image: url(assets/Background_produk.jpeg);" class="bgProduk">
 <?php 
     include "header.php";
+    session_start();
 ?>
 <div>
-<br><h2 style="font-family: selidon;"><center>Daftar Produk<center></h2><br>
+<br><h2 style="font-family: selidon;"><center>Daftar Produk</center></h2><br>
 <?php
     if($_SESSION['level'] == "petugas"){
         ?>
